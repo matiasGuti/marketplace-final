@@ -104,7 +104,7 @@ app.delete('/productos/:id_producto', async (req, res) => {
     await eliminarProducto(id_producto, id_usuario);
     res.send('Producto eliminado con exito');
   } catch (err) {
-    res.status(error.code || 500).send(err);
+    res.status(err.code || 500).send(err);
   }
 });
 
@@ -169,7 +169,7 @@ app.delete('/carro/:id_producto', async (req, res) => {
     await eliminarProductoDelCarro(id_usuario, id_producto);
     res.send('Producto eliminado del carro con exito');
   } catch (err) {
-    res.status(error.code || 500).send(err);
+    res.status(err.code || 500).send(err);
   }
 });
 
@@ -211,6 +211,6 @@ app.delete('/favoritos/:id_producto', async (req, res) => {
     await eliminarFavorito(id_usuario, id_producto);
     res.send('Producto eliminado de favoritos');
   } catch (err) {
-    res.status(error.code || 500).send(err);
+    res.status(err.code || 500).send(err);
   }
 });
