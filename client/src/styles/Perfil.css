@@ -1,0 +1,61 @@
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10px;
+    gap: 40px;
+  }
+  
+  .perfil-container > h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .opciones-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  
+  .opciones-perfil > div {
+    border-radius: 5px;
+    padding: 40px 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #eee;
+  }
+  
+  .titulo-perfil {
+    font-size: 30px;
+  }
+  
+  .btn-perfil {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 40px;
+    cursor: pointer;
+    background-color: darkred;
+  }
+  
+  .btn-perfil:hover{
+      background-color: rgb(74, 11, 11);
+      color: white;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .opciones-perfil {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 70px;
+    }
+  }

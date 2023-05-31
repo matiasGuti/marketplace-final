@@ -1,0 +1,119 @@
+.producto-view-container {
+  margin: 50px 70px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: #eee;
+}
+
+.producto-view-img-container {
+  display: flex;
+  width: 30vw;
+}
+
+.producto-view-img-container > img {
+  width: 100%;
+}
+
+.producto-view-detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.producto-view-detail-title {
+  width: 90%;
+  padding: 7px 0 10px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.producto-view-detail-description {
+  width: 90%;
+  padding-top: 10px;
+  font-size: 18px;  
+}
+
+.producto-view-detail-price-container{
+  width: 90%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.producto-view-price{
+  width: 90%;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 7px 0 10px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.fav-producto-detail-button {
+  padding: 8px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(254, 241, 46);
+}
+
+.no-fav {
+  background-color: #eee;
+}
+
+.cart-producto-detail-button {
+  padding: 8px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: crimson;
+}
+
+.delete-producto-detail-button {
+  width: 100%;
+  padding: 3px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.delete-producto-detail-button:hover {
+  background-color: darkred;
+}
+
+.cart-producto-detail-button:hover {
+  background-color:rgb(112, 14, 33);
+}
+
+.fav-producto-detail-button:hover {
+  background-color: rgb(210, 196, 3);
+}
+
+@media screen and (max-width: 1023px) {
+  .producto-view-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .producto-view-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

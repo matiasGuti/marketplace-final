@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #003049 ;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.link-navbar {
+  color: white;
+  transition: 0.5s;
+}
+
+.link-navbar:hover {
+  color: grey;
+}
+
+.bienvenido {
+  color: white;
+}
+
+.btn-cerrar-session {
+  border-radius: 2px;
+  border: none;
+  font-size: 16px;
+  padding: 1px 4px;
+  background-color: tomato;
+  color: white;
+  font-weight: 500;
+  transition: 0.5s ease;
+}
+
+.btn-cerrar-session:hover {
+  transform: scale(1.1);
+}
+
+.carro-navbar {
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.carro-navbar:hover {
+  transform: scale(1.4);
+}
+
+@media screen and (max-width: 992px) {
+  .nav-container {
+    gap: 10px;
+  }
+}

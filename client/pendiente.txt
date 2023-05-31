@@ -1,0 +1,6 @@
+() En Login.jsx revisar si es necesario el setUsuario() en la funcion de inicarSesion
+() Crear un cerrar sesion
+() En perfil tiene que estar un Hola "nombre" puedes:
+   - Crear un producto nuevo
+   - Revisar tus productos
+   - Revisar tus favoritos

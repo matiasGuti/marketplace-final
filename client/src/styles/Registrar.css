@@ -1,0 +1,81 @@
+.container-registro {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.container-registro h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 1.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.input-container .input-label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-registro {
+  width: 10rem;
+  background-color: #24bb19;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.input-container {
+  width: 30%; /* Tamaño inicial del 10% */
+  transition: width 0.3s ease; /* Transición suave */
+}
+
+.input-container:hover {
+  width: 100%; /* Tamaño final del 100% al pasar el mouse*/ 
+}
+
+
+ .btn-registro:hover {
+  background-color: #186d14;
+  border-radius: 60px;
+  transform: scale(1.4);
+
+} 
+
+.btn-registro-agrandable {
+  transition: transform 0.3s;
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+  .container-registro {
+    width: 80%;
+  }
+}
+
+
+
+

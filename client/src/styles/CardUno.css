@@ -1,0 +1,90 @@
+/* .card {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+  box-shadow: 0 2px 18px rgb(253, 252, 252);
+}
+.card img {
+  width: 100%;
+}
+.card-info {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+}
+.card:hover .card-info {
+  display: block;
+}
+.card-info h3, .card-info p {
+  margin: 0;
+  padding: 0;
+}
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.card-buttons button {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.card-buttons button:hover {
+  background-color: #ddd;
+}
+   */
+
+
+   .card {
+    width: 300px;
+    position: relative;
+    margin: 10px;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 4px 10px #0a0000;
+  }
+  .card-info {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #eae2b7;
+    color: #370617;
+    padding: 10px;
+   
+  }
+  .card:hover .card-info {
+    display: block;
+    border-radius: 10px;
+  }
+  .card-info h3, .card-info p {
+    margin: 0;
+    padding: 0;
+  }
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .card-buttons button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .card-buttons button:hover {
+    background-color: #d62828;
+   
+  }  
+

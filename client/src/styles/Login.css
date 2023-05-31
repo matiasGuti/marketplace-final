@@ -1,0 +1,43 @@
+.container-login {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  
+  .container-login h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 1.5rem;
+  }
+  
+  .btn-login {
+    width: 10rem;
+    background-color: #205de0;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .btn-login:hover {
+    background-color: #638ce4;
+    border-radius: 60px;
+    transform: scale(1.4);
+  }
+
+  .btn-registro-agrandable {
+    transition: transform 0.3s;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .container-login {
+      width: 80%;
+    }
+  }

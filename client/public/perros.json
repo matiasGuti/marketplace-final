@@ -1,0 +1,72 @@
+[
+    {
+      "desc": "Súper Tela!1",
+      "id": "N001",
+      "img": "https://placedog.net/500",
+      "name": "Perro1",
+      "price": 50000
+    },
+    {
+      "desc": "Súper Tela!2",
+      "id": "N002",
+      "img": "https://placedog.net/499",
+      "name": "Perro2",
+      "price": 75000
+    },
+    {
+      "desc": "Súper Tela!3",
+      "id": "N003",
+      "img": "https://placedog.net/498",
+      "name": "Perro3",
+      "price": 10000
+    },
+    {
+      "desc": "Súper Tela!4",
+      "id": "N004",
+      "img": "https://placedog.net/497",
+      "name": "Perro4",
+      "price": 5000
+    },
+    {
+      "desc": "Súper Tela!5",
+      "id": "N005",
+      "img": "https://placedog.net/496",
+      "name": "Perro5",
+      "price": 120000
+    },
+    {
+      "desc": "Súper Tela!6",
+      "id": "N006",
+      "img": "https://placedog.net/495",
+      "name": "Perro6",
+      "price": 7500
+    },
+    {
+      "desc": "Súper Tela!7",
+      "id": "N007",
+      "img": "https://placedog.net/494",
+      "name": "Perro7",
+      "price": 10000
+    },
+    {
+      "desc": "Súper Tela!8",
+      "id": "N008",
+      "img": "https://placedog.net/493",
+      "name": "Perro8",
+      "price": 5000
+    },
+    {
+      "desc": "Súper Tela!9",
+      "id": "N009",
+      "img": "https://placedog.net/492",
+      "name": "Perro9",
+      "price": 120000
+    },
+    {
+      "desc": "Súper Tela!10",
+      "id": "N010",
+      "img": "https://placedog.net/491",
+      "name": "Perro10",
+      "price": 7500
+    }
+  ]
