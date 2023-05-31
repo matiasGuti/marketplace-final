@@ -15,7 +15,7 @@ function Navbar2() {
   const navigate = useNavigate();
 
   const obtenerDatosUsuario = async () => {
-    const urlServidor = 'https://marketplace-final-production.up.railway.app';
+    const urlServidor = 'https://mdeploy378654321.onrender.com';
     const endpoint = '/usuarios';
     const token = localStorage.getItem('token');
 

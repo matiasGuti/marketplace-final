@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     const datos = async () => {
-      const urlServidor = 'https://marketplace-final-production.up.railway.app';
+      const urlServidor = 'https://mdeploy378654321.onrender.com';
       const endpoint = '/productos';
       try {
         const { data } = await axios.get(urlServidor + endpoint);

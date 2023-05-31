@@ -20,7 +20,7 @@ function CardUno({ market }) {
       return;
     }
 
-    const urlServidor = 'https://marketplace-final-production.up.railway.app';
+    const urlServidor = 'https://mdeploy378654321.onrender.com';
     const endpoint = '/carro';
 
     // Revisar si el usuario ya tiene el producto en su carro
