@@ -28,7 +28,9 @@ const app = express();
 app.listen(3000, console.log('SERVIDOR ENCENDIDO'));
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://stirring-praline-60de60.netlify.app'
+}));
 
 // --------------------------- RUTAS ---------------------------
 //--------------- Rutas usuarios
