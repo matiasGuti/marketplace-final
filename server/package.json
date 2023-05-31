@@ -4,7 +4,8 @@
   "description": "",
   "main": "conexionBaseDeDatos.js",
   "scripts": {
-    "test": "jest  --forceExit"
+    "test": "jest  --forceExit",
+    "build": "npm i"
   },
   "repository": {
     "type": "git",
