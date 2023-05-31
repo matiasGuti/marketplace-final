@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     const datos = async () => {
-      const urlServidor = 'https://deployx.onrender.com';
+      const urlServidor = 'https://dpp-9edm.onrender.com';
       const endpoint = '/productos';
       try {
         const { data } = await axios.get(urlServidor + endpoint);

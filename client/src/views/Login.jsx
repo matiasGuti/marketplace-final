@@ -21,7 +21,7 @@ function Login() {
   };
 
   const iniciarSesion = async () => {
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
     const endpoint = '/login';
     const { email, password } = usuario;
     try {

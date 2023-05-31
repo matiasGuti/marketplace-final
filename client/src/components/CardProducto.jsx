@@ -28,7 +28,7 @@ function CardProducto({ producto, paginaFav }) {
     const revisarSiProductoEnFavoritos = async () => {
       if(!localStorage.getItem('token') || !usuario) return
 
-      const urlServidor = 'https://deployx.onrender.com';
+      const urlServidor = 'https://dpp-9edm.onrender.com';
       const endpoint = `/favoritos_check?id_usuario=${usuario.id_usuario}&id_producto=${producto.id_producto}`;
     
       try {
@@ -51,7 +51,7 @@ function CardProducto({ producto, paginaFav }) {
       return;
     }
 
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
     const endpoint = '/carro';
 
     // Revisar si el usuario ya tiene el producto en su carro
@@ -94,7 +94,7 @@ function CardProducto({ producto, paginaFav }) {
       return;
     }
 
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
 
     // Revisar si el producto ya esta agregado como favorito
     if (esFavorito) {

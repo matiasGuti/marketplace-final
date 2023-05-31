@@ -20,7 +20,7 @@ function CardUno({ market }) {
       return;
     }
 
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
     const endpoint = '/carro';
 
     // Revisar si el usuario ya tiene el producto en su carro

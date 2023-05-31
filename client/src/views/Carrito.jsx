@@ -14,7 +14,7 @@ function Carrito() {
  
   // Obtener carro del usuario
   const obtenerCarroUsuario = async () => {
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
     const endpoint = `/carro/${id_usuario}`;
 
     try {
@@ -54,7 +54,7 @@ function Carrito() {
   }, []);
 
   const sumarUnoAlProducto = async (producto) => {
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
     const endpointSumar = '/sumar_uno';
 
     try {
@@ -72,7 +72,7 @@ function Carrito() {
   };
 
   const restarUnoAlProducto = async (producto) => {
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
 
     //Revisar si es el ultimo producto en el carro
     if (producto.cantidad_total === 1) {

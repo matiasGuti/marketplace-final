@@ -15,7 +15,7 @@ function Navbar2() {
   const navigate = useNavigate();
 
   const obtenerDatosUsuario = async () => {
-    const urlServidor = 'https://deployx.onrender.com';
+    const urlServidor = 'https://dpp-9edm.onrender.com';
     const endpoint = '/usuarios';
     const token = localStorage.getItem('token');
 
