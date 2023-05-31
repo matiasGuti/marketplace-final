@@ -19,7 +19,7 @@ function Registrar() {
   };
 
   const registrarUsuario = async () => {
-    const urlServidor = 'https://mdeploy378654321.onrender.com';
+    const urlServidor = 'https://deployx.onrender.com';
     const endpoint = '/usuarios';
     try {
       await axios.post(urlServidor + endpoint, usuario);

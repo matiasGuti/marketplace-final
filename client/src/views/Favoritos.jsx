@@ -21,7 +21,7 @@ const Favoritos = () => {
   useEffect(() => {
     const getFavoritos = async () => {
       try {
-        const urlServidor = 'https://mdeploy378654321.onrender.com';
+        const urlServidor = 'https://deployx.onrender.com';
         const endpoint = `/favoritos/${usuario.id_usuario}`;
         const { data } = await axios.get(urlServidor + endpoint);
         setFavs(data);

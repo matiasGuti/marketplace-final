@@ -31,7 +31,7 @@ const CrearProducto = () => {
   };
 
   const subirProducto = async () => {
-    const urlServidor = 'https://mdeploy378654321.onrender.com';
+    const urlServidor = 'https://deployx.onrender.com';
     const endpoint = '/productos';
     try {
       const productoAEnviar = { ...producto, id_usuario: usuario.id_usuario };

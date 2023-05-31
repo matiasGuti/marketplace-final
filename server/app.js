@@ -29,23 +29,7 @@ app.listen(3000, console.log('SERVIDOR ENCENDIDO'));
 
 app.use(express.json());
 
-app.use(cors({
-  origin: 'https://main--keen-naiad-3e6b66.netlify.app'
-}));
-
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
-
-// Add headers before the routes are defined
-app.use(function (req, res, next) {
-  // Website you wish to allow to connect
-  res.setHeader('Access-Control-Allow-Origin', 'https://main--keen-naiad-3e6b66.netlify.app');
-  // Pass to next layer of middleware
-  next();
-});
+app.use(cors())
 
 // --------------------------- RUTAS ---------------------------
 //--------------- Rutas usuarios
