@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     const datos = async () => {
-      const urlServidor = 'http://localhost:3000';
+      const urlServidor = 'https://marketplace-final-production.up.railway.app';
       const endpoint = '/productos';
       try {
         const { data } = await axios.get(urlServidor + endpoint);

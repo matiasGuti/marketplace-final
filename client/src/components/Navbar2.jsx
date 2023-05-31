@@ -15,7 +15,7 @@ function Navbar2() {
   const navigate = useNavigate();
 
   const obtenerDatosUsuario = async () => {
-    const urlServidor = 'http://localhost:3000';
+    const urlServidor = 'https://marketplace-final-production.up.railway.app';
     const endpoint = '/usuarios';
     const token = localStorage.getItem('token');
 

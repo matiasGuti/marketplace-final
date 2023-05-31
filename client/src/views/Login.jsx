@@ -21,7 +21,7 @@ function Login() {
   };
 
   const iniciarSesion = async () => {
-    const urlServidor = 'http://localhost:3000';
+    const urlServidor = 'https://marketplace-final-production.up.railway.app';
     const endpoint = '/login';
     const { email, password } = usuario;
     try {

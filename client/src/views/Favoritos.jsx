@@ -21,7 +21,7 @@ const Favoritos = () => {
   useEffect(() => {
     const getFavoritos = async () => {
       try {
-        const urlServidor = 'http://localhost:3000';
+        const urlServidor = 'https://marketplace-final-production.up.railway.app';
         const endpoint = `/favoritos/${usuario.id_usuario}`;
         const { data } = await axios.get(urlServidor + endpoint);
         setFavs(data);

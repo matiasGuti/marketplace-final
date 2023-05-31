@@ -45,7 +45,7 @@ function DetalleProducto() {
     const revisarSiProductoEnFavoritos = async () => {
       if(!localStorage.getItem('token') || !usuario) return
 
-      const urlServidor = 'http://localhost:3000';
+      const urlServidor = 'https://marketplace-final-production.up.railway.app';
       const endpoint = `/favoritos_check?id_usuario=${usuario.id_usuario}&id_producto=${id_producto}`;
     
       try {
@@ -67,7 +67,7 @@ function DetalleProducto() {
       return;
     }
 
-    const urlServidor = 'http://localhost:3000';
+    const urlServidor = 'https://marketplace-final-production.up.railway.app';
     const endpoint = '/carro';
 
     // Revisar si el usuario ya tiene el producto en su carro
@@ -104,7 +104,7 @@ function DetalleProducto() {
   };
 
   const eliminarProducto = async (producto) => {
-    const urlServidor = 'http://localhost:3000';
+    const urlServidor = 'https://marketplace-final-production.up.railway.app';
     const endpoint = `/productos/${producto.id_producto}`;
 
     const requestBody = {
@@ -128,7 +128,7 @@ function DetalleProducto() {
       return;
     }
 
-    const urlServidor = 'http://localhost:3000';
+    const urlServidor = 'https://marketplace-final-production.up.railway.app';
 
     // Revisar si el producto ya esta agregado como favorito
     if (esFavorito) {

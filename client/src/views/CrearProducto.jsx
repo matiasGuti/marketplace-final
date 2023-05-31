@@ -31,7 +31,7 @@ const CrearProducto = () => {
   };
 
   const subirProducto = async () => {
-    const urlServidor = 'http://localhost:3000';
+    const urlServidor = 'https://marketplace-final-production.up.railway.app';
     const endpoint = '/productos';
     try {
       const productoAEnviar = { ...producto, id_usuario: usuario.id_usuario };

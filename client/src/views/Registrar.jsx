@@ -19,7 +19,7 @@ function Registrar() {
   };
 
   const registrarUsuario = async () => {
-    const urlServidor = 'http://localhost:3000';
+    const urlServidor = 'https://marketplace-final-production.up.railway.app';
     const endpoint = '/usuarios';
     try {
       await axios.post(urlServidor + endpoint, usuario);
